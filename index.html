@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abou Mohajer Dinare High School</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #004080;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #0073e6;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .column {
+      width: 48%;
+      box-sizing: border-box;
+    }
+    .title {
+      font-size: 24px;
+      color: #004080;
+      margin-bottom: 10px;
+    }
+    .arabic {
+      direction: rtl;
+      text-align: right;
+    }
+    .card {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #004080;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Abou Mohajer Dinare High School</h1>
+    <h2>ثانوية أبو المهاجر دينار</h2>
+  </header>
+
+  <nav>
+    <a href="#home">Home | الرئيسية</a>
+    <a href="#about">About Us | من نحن</a>
+    <a href="#subjects">Subjects | المواد الدراسية</a>
+    <a href="#teachers">Teachers | الأساتذة</a>
+    <a href="#contact">Contact | اتصل بنا</a>
+  </nav>
+
+  <section id="home">
+    <div class="column card">
+      <div class="title">Welcome to our School</div>
+      <p>We aim to educate, inspire, and prepare students for the future with knowledge and strong values.</p>
+    </div>
+    <div class="column card arabic">
+      <div class="title">مرحبًا بكم في مدرستنا</div>
+      <p>نهدف إلى تعليم وإلهام الطلاب وإعدادهم للمستقبل بالمعرفة والقيم القوية.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="column card">
+      <div class="title">About Us</div>
+      <p>Our school, located in Souk Ahras, has been serving the community with excellence in education, encouraging students to reach their full potential.</p>
+    </div>
+    <div class="column card arabic">
+      <div class="title">من نحن</div>
+      <p>مدرستنا، الواقعة في سوق أهراس، تخدم المجتمع بتفوق في التعليم وتشجع الطلاب على تحقيق إمكاناتهم الكاملة.</p>
+    </div>
+  </section>
+
+  <section id="subjects">
+    <div class="column card">
+      <div class="title">Subjects</div>
+      <ul>
+        <li>Mathematics</li>
+        <li>Physics</li>
+        <li>Chemistry</li>
+        <li>Biology</li>
+        <li>History & Geography</li>
+        <li>Languages: Arabic, French, English</li>
+        <li>Philosophy</li>
+        <li>Islamic Education</li>
+        <li>Technology</li>
+      </ul>
+    </div>
+    <div class="column card arabic">
+      <div class="title">المواد الدراسية</div>
+      <ul>
+        <li>الرياضيات</li>
+        <li>الفيزياء</li>
+        <li>الكيمياء</li>
+        <li>علوم الطبيعة</li>
+        <li>التاريخ والجغرافيا</li>
+        <li>اللغات: العربية، الفرنسية، الإنجليزية</li>
+        <li>الفلسفة</li>
+        <li>التربية الإسلامية</li>
+        <li>التكنولوجيا</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="teachers">
+    <div class="column card">
+      <div class="title">Our Teachers</div>
+      <p>Mr. Salah – Math<br>Mrs. Leila – Biology<br>Mr. Nabil – English<br>Mrs. Amina – History<br>Mr. Rachid – Physics<br>Ms. Sara – French</p>
+    </div>
+    <div class="column card arabic">
+      <div class="title">الأساتذة</div>
+      <p>الأستاذ صلاح – الرياضيات<br>الأستاذة ليلى – علوم الطبيعة<br>الأستاذ نبيل – الإنجليزية<br>الأستاذة أمينة – التاريخ<br>الأستاذ رشيد – الفيزياء<br>الآنسة سارة – الفرنسية</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="column card">
+      <div class="title">Contact Us</div>
+      <p>Email: info@school.dz<br>Phone: +213 123 456 789<br>Location: Souk Ahras, Algeria</p>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div class="column card arabic">
+      <div class="title">اتصل بنا</div>
+      <p>البريد الإلكتروني: info@school.dz<br>الهاتف: +213 123 456 789<br>الموقع: سوق أهراس، الجزائر</p>
+      <form>
+        <input type="text" placeholder="اسمك">
+        <input type="email" placeholder="بريدك الإلكتروني">
+        <textarea placeholder="رسالتك"></textarea>
+        <button type="submit">إرسال</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Abou Mohajer Dinare High School | ثانوية أبو المهاجر دينار
+  </footer>
+</body>
+</html>
